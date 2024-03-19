@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta content="IE=edge,chrome=1"
+          http-equiv="X-UA-Compatible"/>
+    <meta content="Description"
+          name="description">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+
+    <link href="./assets/css/docsify-themeable/docsify-darklight-theme.css"
+          rel="stylesheet"
+          type="text/css">
+
+    <!-- docsify-themeable styles-->
+    <link href="./assets/css/docsify-themeable/theme-simple.css"
+          rel="stylesheet"
+          title="light">
+    <link href="./assets/css/docsify-themeable/theme-simple-dark.css"
+          rel="stylesheet alternative"
+          title="dark">
+</head>
+<body>
+<div id="app"></div>
+<script>
+	window.$docsify = {
+        auto2top: true,
+        // 加载 _sidebar.md
+        loadSidebar: true,
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md',
+            '/.*/_navbar.md': '/_navbar.md',
+        },
+        loadNavbar: true,
+        mergeNavbar: true,
+        maxLevel: 1,
+        // sidebar最大显示的等级,例如2表示如果是h3,h4,h5,h6就不会显示在sidebar,h3表示h4,h5,h6不会显示在sidebar
+        subMaxLevel: 3,
+        name: 'M8Test',
+        repo: '',
+        // 复制代码
+        copyCode: {
+            buttonText: {
+                '/': '点击复制'
+            },
+            errorText: {
+                '/': '错误'
+            },
+            successText: {
+                '/': '已复制'
+            }
+        },
+        // 字数统计
+        count: {
+            countable: true,
+            fontsize: '0.9em',
+            color: 'rgb(90,90,90)',
+            language: 'chinese'
+        },
+        coverpage: true,
+        // 封面单独一页
+        onlyCover: true,
+        // 全文搜索
+        search: 'auto', // 默认值
+        // 折叠sidebar
+        sidebarDisplayLevel: 1,
+        pagination: {
+            previousText: '上一章节',
+            nextText: '下一章节',
+            crossChapter: true,
+            crossChapterText: true,
+        },
+    }
+
+</script>
+<!-- Docsify v4 -->
+<script src="./assets/js/docsify.min.js"></script>
+<!-- 复制功能 -->
+<script src="./assets/js/docsify-copy-code.js"></script>
+<!-- 字数统计功能 -->
+<script src="./assets/js/countable.js"></script>
+<!-- 全文搜索 -->
+<script src="./assets/js/search.js"></script>
+<!-- 图片缩放 -->
+<script src="./assets/js/zoom-image.min.js"></script>
+<!-- 自动折叠 -->
+<script src="./assets/js/docsify-sidebar-collapse.min.js"></script>
+<!-- 上一章节下一章节 -->
+<script src="./assets/js/pagination.min.js"></script>
+<script src="./assets/js/docsify-themeable/main.min.js"
+        type="text/javascript"></script>
+<script src="./assets/js/docsify-themeable/index.min.js"
+        type="text/javascript"></script>
+<!-- 代码高亮 -->
+<script src="./assets/js/prism-java.min.js"></script>
+</body>
+</html>

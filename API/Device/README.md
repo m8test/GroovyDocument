@@ -1,0 +1,8 @@
+* [Audio](/API/Device/Audio/README.md)
+* [Battery](/API/Device/Battery/README.md)
+* [Device](/API/Device/Device/README.md)
+* [Memory](/API/Device/Memory/README.md)
+* [Screen](/API/Device/Screen/README.md)
+* [System](/API/Device/System/README.md)
+    * [Version](/API/Device/System/Version/README.md)
+* [Vibrator](/API/Device/Vibrator/README.md)
